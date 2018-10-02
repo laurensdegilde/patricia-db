@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="pmt-trie-rest:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="pmt-api.war">
+      <element id="artifact" artifact-name="pmt-trie-rest:war exploded" />
+    </root>
+  </artifact>
+</component>

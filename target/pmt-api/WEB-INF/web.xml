@@ -1,0 +1,21 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <display-name>Archetype Created Web Application</display-name>
+    <servlet>
+        <servlet-name>trie-post</servlet-name>
+        <servlet-class>rest.TriePost</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>trie-post</servlet-name>
+        <url-pattern>/trie/post</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>trie-get</servlet-name>
+        <servlet-class>rest.TrieGet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>trie-get</servlet-name>
+        <url-pattern>/trie/get</url-pattern>
+    </servlet-mapping>
+</web-app>
